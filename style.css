@@ -33,6 +33,7 @@ a{
     justify-content:center;
     background-color:#1F2937 ;
     gap: 16px;
+    padding: 50px;
 }
 
 .content{
@@ -68,5 +69,43 @@ a{
     border-radius: 5px;
     border: none;
     color: #f9faf8;
-
 }
+/* Second container */
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.random-info{
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 15px;
+}
+
+.img-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.img-box{
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.text{
+    text-align:center;
+    width: 160px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
